@@ -1,0 +1,6 @@
+<?php
+// Exemple de configuration - À renommer en mailer.php
+define('SMTP_HOST', 'smtp.gmail.com');
+define('SMTP_USER', 'votre-email@gmail.com');
+define('SMTP_PASS', 'VOTRE_MOT_DE_PASSE_APPLICATION_ICI');
+define('SMTP_PORT', 587);
