@@ -1,0 +1,10 @@
+# Ignorer les configurations sensibles
+config/mailer.php
+config/db.php
+
+# Ignorer les bibliothèques lourdes (le prof les a déjà sûrement)
+lib/
+
+# Ignorer les fichiers temporaires et les logs
+*.log
+.DS_Store
