@@ -47,51 +47,30 @@ http://localhost/eventhub_mvp/
 
 ```
 eventhub_mvp/
-├── index.html                  ✅ Fourni — Interface HTML/JS
+├── index.html                  
 ├── config/
-│   ├── db.php                  ✅ Fourni — Connexion PDO
-│   └── mailer.php              ⚠️ Partiel — Credentials SMTP à renseigner
+│   ├── db.php                  
+│   └── mailer.php              
 ├── events/
-│   ├── create.php              🔴 Bugs à corriger (Partie 1.2)
-│   └── register.php            🔴 À compléter (Parties 2.1 + 2.2)
+│   ├── create.php              
+│   └── register.php            
 ├── api/
-│   ├── events.php              ⚠️ Partiel — searchEvents() à compléter (Partie 1.3)
-│   └── stats.php               🔴 À créer entièrement (Partie 4.2)
+│   ├── events.php              
+│   └── stats.php               
 ├── pdf/
-│   ├── ticket.php              🔴 À créer (Partie 3.1)
-│   └── report.php              🔴 À créer (Partie 3.2)
+│   ├── ticket.php              
+│   └── report.php              
 ├── mail/
-│   ├── SendConfirmation.php    🔴 À compléter (Partie 2.1)
-│   ├── AlertMailer.php         🔴 À compléter (Partie 2.2)
+│   ├── SendConfirmation.php    
+│   ├── AlertMailer.php         
 │   └── templates/
-│       ├── confirmation.html   ⚠️ Partiel — Injecter les données
-│       └── alert.html          ⚠️ Partiel — Injecter les données
+│       ├── confirmation.html   
+│       └── alert.html          
 ├── assets/
-│   └── js/app.js               ⚠️ Partiel — 4 fonctions fetch() à compléter
+│   └── js/app.js               
 ├── database/
-│   └── schema.sql              ⚠️ Partiel — Table registrations + index à ajouter
-└── CHOIX_TECHNIQUES.md         🔴 À rédiger (Partie 5.2)
+│   └── schema.sql              
+└── CHOIX_TECHNIQUES.md         
 ```
 
----
 
-## 📋 Livrables à rendre
-
-| Fichier | Obligatoire |
-|---------|------------|
-| Code source complet (.zip) | ✅ |
-| database/schema.sql complété | ✅ |
-| SCENARIO.md (résultats des tests) | ✅ |
-| CHOIX_TECHNIQUES.md | ✅ |
-| pdf/samples/ticket_example.pdf | ✅ |
-| pdf/samples/report_example.pdf | ✅ |
-
----
-
-## 💡 Conseils
-
-- Commencez par la **Partie 1** (base de données + PDO) — tout le reste en dépend
-- Testez chaque partie **individuellement** avant de passer à la suivante
-- Utilisez **Mailtrap** pour tester les emails sans envoyer de vrais messages
-- Commitez régulièrement avec Git — le log sera évalué
-- Le bonus MVC ne vaut que si les Parties 1–5 fonctionnent à 60% minimum
